@@ -1,0 +1,19 @@
+//
+// theme/typography
+
+.page-title {
+  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  text-align: center;
+  color: $brand-color;
+
+  b,
+  strong {
+    font-weight: bold;
+  }
+}

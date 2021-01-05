@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    image: 'registry.gitlab.com/sweetbonus/store:latest'
+    container_name: store-sweet
+    ports:
+        - 8003:80
+    environment:
+      XDEBUG_CONFIG: remote_host= 172.17.0.1
+    volumes:
+        - ./:/var/www/html
+

@@ -1,0 +1,52 @@
+//
+// modules/product
+
+.product {
+  display: block;
+  padding-bottom: 1rem;
+  color: #afafaf;
+  text-transform: uppercase;
+}
+
+.product:hover {
+  color: #afafaf;
+  text-decoration: none;
+}
+
+.product--two-columns {}
+
+.product__figure {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-thumb {
+  max-width: 90px;
+}
+
+.product__data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-title {
+  display: block;
+  font-size: .625rem;
+  font-weight: bold;
+}
+
+.product-price {
+  display: block;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.product-btn {
+  width: 49px;
+  height: 29px;
+  border: 0;
+  margin-left: 10px;
+  background: url('../images/featured-products-button.png') no-repeat;
+  cursor: pointer;
+}

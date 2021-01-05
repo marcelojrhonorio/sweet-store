@@ -1,0 +1,30 @@
+//
+// theme/patchs
+
+.profile-link {
+  color: #fff;
+
+  &:focus,
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.sidebar-toggle {
+  color: #212529;
+
+  &:focus,
+  &:hover {
+    color: #212529;
+    text-decoration: none;
+  }
+}
+
+.navbar-brand {
+  padding-left: 0;
+}
+
+#profile .profile-points span:last-child {
+  padding-left: 0;
+}
